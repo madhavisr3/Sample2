@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>staff sign-up</title>
+</head>
+<body>
+	<h1>enter the staff details</h1>
+	<form action="staffsignup" method="post">
+		<table>
+			<tr>
+				<th><label for="name">name:</label>
+				<th><input type="text" name="name" id="name"></th>
+			</tr>
+			<tr>
+				<th><label for="mobile">mobile</label></th>
+				<th><input type="tel" pattern="[0-9]{10}" name="mobile"
+					id="mobile"></th>
+			</tr>
+			<tr>
+				<th><label for="email">email:</label></th>
+				<th><input type="email" name="email" id="email"></th>
+			</tr>
+			<tr>
+				<th><label for="password">password:</label></th>
+				<th><input type="password" name="password" id="password"></th>
+			</tr>
+			<tr>
+				<th><label for="dob">Dob:</label></th>
+				<th><input type="date" name="dob" id="date"></th>
+			</tr>
+			<tr>
+				<th><label for="gender">Gender:</label></th>
+				<th><input type="radio" name="gender" value="male" id="gender">Male
+					<input type="radio" name="gender" value="male" id="gender">Female
+				</th>
+			</tr>
+			<tr>
+				<th><button type="reset">cancel</button></th>
+				<th>
+					<button>Register</button>
+				</th>
+			</tr>
+		</table>
+</form>
+</body>
+</html>
